@@ -33,12 +33,7 @@ end
 
 
 def apply_clearance(cart)
-  cart.collect do |element|
-    if element[:clearance] == true
-      element[:price] = element[:price] * .80.to_f
-    end  
-  end
-cart
+  
 end
 
 
